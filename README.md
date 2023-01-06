@@ -57,3 +57,13 @@ Para a listagem do plano de contas também é possível realizar alguns filtros 
     search=<name_or_code> (filtra por nome ou código)
     type=<income|expense> (filtra pelo tipo da conta)
     allowEntries=<true|false> (filtra por contas que aceitar ou não lançamentos)
+
+Para a criação da conta, o seguinte JSON pode ser utilizado:
+
+    {
+       "code":  "1.5",
+       "parentCode":  "1",
+       "name":  "Vale Transporte",
+       "type":  "<Income|Expense>",
+       "allowEntries":  <true|false>
+    }
