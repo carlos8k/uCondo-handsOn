@@ -4,7 +4,7 @@ Este projeto foi desenvolvido para a [uCondo](https://www.ucondo.com.br), como p
 
 Inclusive, tem mais vagas abertas lá no [Abler da uCondo](https://ucondo.abler.com.br), da uma conferida. ;)
 
-A proposta do projeto é a criação de um CRUD de plano de contas, além de uma API que auxilia na criação da numeração do plano de contas filho. Se você não faz ideia do que é um plano de contas, o Conta Azul resumiu de forma didática [nesse link](https://ajuda.contaazul.com/hc/pt-br/articles/360019773271-O-que-%C3%A9-Plano-de-Contas-).
+A proposta do projeto é a criação de um CRUD de plano de contas, além de uma API que auxilia na criação da numeração da conta filha no plano. Se você não faz ideia do que é um plano de contas, o Conta Azul resumiu de forma didática [neste link](https://ajuda.contaazul.com/hc/pt-br/articles/360019773271-O-que-%C3%A9-Plano-de-Contas-).
 
 ## Tecnologias
 
@@ -28,7 +28,7 @@ Se você preferir utilizar um novo banco de dados, local ou em nuvem, basta alte
       "HandsOnDatabase": "sua_connection_string"
     },
   
-O projeto utiliza Entity Framework com Code First, e a execução do Migration é automática. Ou seja, basta trocar a connection string e executar o projeto que as tabelas necessárias seram criadas automágicamente.
+O projeto utiliza Entity Framework com Code First, e a execução do Migration é automática. Ou seja, basta trocar a connection string e executar o projeto que as tabelas necessárias serão criadas automágicamente.
 
 *Ps.: A string de conexão publicada estará disponível apenas para validação/apresentação do projeto, e depois o banco será apagado e a senha do servidor de banco de dados resetada.* 
 
