@@ -47,16 +47,16 @@ Ao executar o projeto, ele passa a aceitar requisições HTTP em um servidor loc
 
 Os endpoints disponíveis são:
 
-    GET http://localhost:37058/api/accounts (listagem de plano de contas)
+    GET http://localhost:37058/api/accounts (listagem do plano de contas)
     POST http://localhost:37058/api/accounts (criação de nova conta)
-    DELETE http://localhost:37058/api/accounts/<code> (exclusão da conta - e seus filhos)
+    DELETE http://localhost:37058/api/accounts/<code> (exclusão de conta - e seus filhos)
     GET http://localhost:37058/api/accounts/<code>/next (sugestão de numeração do próximo filho)
 
 Para a listagem do plano de contas também é possível realizar alguns filtros via query string:
 
     search=<name_or_code> (filtra por nome ou código)
     type=<income|expense> (filtra pelo tipo da conta)
-    allowEntries=<true|false> (filtra por contas que aceitar ou não lançamentos)
+    allowEntries=<true|false> (filtra por contas que aceitam ou não lançamentos)
 
 Para a criação da conta, o seguinte JSON pode ser utilizado:
 
